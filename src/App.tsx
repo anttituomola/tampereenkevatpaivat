@@ -12,7 +12,7 @@ function App() {
         <section className='intro'>
           <div className='logo-container'>
             <img
-              src='/tampereen-kevatpaivat-2025.png'
+              src='/cropped-tampereen-kevatpaivat-2025 (1).png'
               alt='Tampereen Kevätpäivät™ 2025 logo'
               className='event-logo'
             />
