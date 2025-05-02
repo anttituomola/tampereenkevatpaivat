@@ -10,12 +10,18 @@ function App() {
 
       <main>
         <section className='intro'>
-          <div className="logo-container">
-            <img src="/tampereen-kevatpaivat-2025.png" alt="Tampereen Kevätpäivät™ 2025 logo" className="event-logo" />
+          <div className='logo-container'>
+            <img
+              src='/tampereen-kevatpaivat-2025.png'
+              alt='Tampereen Kevätpäivät™ 2025 logo'
+              className='event-logo'
+            />
           </div>
           <h2>Tervetuloa!</h2>
           <p>
-            Tampereen Kevätpäivät™ on tekosyy tavata ystäviä ja uusia ystäviä, sekä nauttia Maailman Saunapääkaupungin keväästä hyvässä seurassa. Tule, ja tuo ystäväsikin.
+            Tampereen Kevätpäivät™ on tekosyy tavata ystäviä ja uusia ystäviä,
+            sekä nauttia Maailman Saunapääkaupungin keväästä hyvässä seurassa.
+            Tule, ja tuo ystäväsikin.
           </p>
         </section>
 
