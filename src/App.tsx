@@ -32,6 +32,10 @@ function App() {
             <div className='event-time'>9:30</div>
             <div className='event-content'>
               <h3>Kokoontuminen: Raholan Kympin lähtöpaikka</h3>
+              <div className='info-item'>
+                <span className='icon'>🕒</span>
+                <p>Klo 9:30</p>
+              </div>
               <p className='location'>
                 <a
                   href='https://www.google.com/maps/search/?api=1&query=Tuomarinkatu+7+Tampere'
@@ -48,6 +52,10 @@ function App() {
             <div className='event-time'>10:00</div>
             <div className='event-content'>
               <h3>Raholan Kymppi -juoksukilpailu</h3>
+              <div className='info-item'>
+                <span className='icon'>🕒</span>
+                <p>Klo 10:00</p>
+              </div>
               <div className='info-item'>
                 <span className='icon'>🏃</span>
                 <p>Ilmoittautuminen 5.5.2025 asti, tai paikan päällä.</p>
@@ -91,6 +99,10 @@ function App() {
             <div className='event-time'>13:00</div>
             <div className='event-content'>
               <h3>Saunalautta</h3>
+              <div className='info-item'>
+                <span className='icon'>🕒</span>
+                <p>Klo 13:00 - 15:00</p>
+              </div>
               <p className='location'>
                 <a
                   href='https://www.google.com/maps/search/?api=1&query=Nalkalankatu+11+Tampere'
@@ -100,10 +112,6 @@ function App() {
                   Lähtö: Nalkalankatu 11, ravintola Kuuman läheltä
                 </a>
               </p>
-              <div className='info-item'>
-                <span className='icon'>🕒</span>
-                <p>Paluu samaan paikkaan klo 15:00.</p>
-              </div>
               <div className='info-item'>
                 <span className='icon'>💰</span>
                 <p>Hinta: ~25€/henkilö.</p>
@@ -168,6 +176,10 @@ function App() {
             <div className='event-time'>16:00</div>
             <div className='event-content'>
               <h3>Minigolf-turnaus</h3>
+              <div className='info-item'>
+                <span className='icon'>🕒</span>
+                <p>Klo 16:00</p>
+              </div>
               <p className='location'>
                 <a
                   href='https://www.google.com/maps/search/?api=1&query=Koulukatu+28+Eteläpuisto+33200+Tampere'
@@ -216,6 +228,10 @@ function App() {
             <div className='event-time'>18:30</div>
             <div className='event-content'>
               <h3>Grillijuhlat ja näköalasauna</h3>
+              <div className='info-item'>
+                <span className='icon'>🕒</span>
+                <p>Klo 18:30 - 23:00</p>
+              </div>
               <p className='location'>
                 <a
                   href='https://www.google.com/maps/search/?api=1&query=Peltokatu+34+33100+Tampere'
@@ -230,8 +246,8 @@ function App() {
                 <p>Gofore, A-torni, 4. kerros (rautatieaseman vieressä)</p>
               </div>
               <div className='info-item'>
-                <span className='icon'>🕒</span>
-                <p>Kesto: 18:30-23:00</p>
+                <span className='icon'>💰</span>
+                <p>Hinta: 0€</p>
               </div>
               <div className='info-item'>
                 <span className='icon'>🍽️</span>
@@ -247,6 +263,10 @@ function App() {
             <div className='event-time'>23:00→</div>
             <div className='event-content'>
               <h3>Jatkot</h3>
+              <div className='info-item'>
+                <span className='icon'>🕒</span>
+                <p>Klo 23:00 alkaen</p>
+              </div>
               <div className='info-item'>
                 <span className='icon'>🎉</span>
                 <p>Vapaasti valitussa lokaatiossa niille, jotka jaksavat!</p>
