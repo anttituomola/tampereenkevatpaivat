@@ -20,7 +20,7 @@ function App() {
           <h2>Tervetuloa!</h2>
           <p>
             Tampereen Kevätpäivät™ on tekosyy tavata ystäviä ja uusia ystäviä,
-            sekä nauttia Maailman Saunapääkaupungin keväästä hyvässä seurassa.
+            sekä nauttia maailman saunapääkaupungin keväästä hyvässä seurassa.
             Tule, ja tuo ystäväsikin.
           </p>
         </section>
