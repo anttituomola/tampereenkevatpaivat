@@ -383,6 +383,19 @@ footer {
   margin-top: auto;
 }
 
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+}
+
+.footer-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
 footer p {
   font-size: 0.9rem;
   letter-spacing: 0.5px;
@@ -445,6 +458,11 @@ a:hover {
   .event-logo {
     max-width: 400px;
     margin-bottom: var(--spacing-lg);
+  }
+  
+  .footer-icon {
+    width: 40px;
+    height: 40px;
   }
 }
 

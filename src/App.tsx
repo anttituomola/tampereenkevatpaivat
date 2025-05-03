@@ -12,7 +12,7 @@ function App() {
         <section className='intro'>
           <div className='logo-container'>
             <img
-              src='/tampereen-kevatpaivat-2025.png'
+              src='/tampereen-kevatpaivat-2025-transparent.png'
               alt='Tampereen Kevätpäivät™ 2025 logo'
               className='event-logo'
             />
@@ -420,7 +420,14 @@ function App() {
       </main>
 
       <footer>
-        <p>&copy; {new Date().getFullYear()} Tampereen Kevätpäivät™</p>
+        <div className='footer-content'>
+          <img
+            src='/tampereen-kevatpaivat-2025-icon.png'
+            alt='Tampereen Kevätpäivät™ icon'
+            className='footer-icon'
+          />
+          <p>&copy; {new Date().getFullYear()} Tampereen Kevätpäivät™</p>
+        </div>
       </footer>
     </div>
   );
