@@ -118,7 +118,17 @@ function App() {
               </div>
               <div className='info-item'>
                 <span className='icon'>⚠️</span>
-                <p>Vaatii ennakkoilmoittautumisen.</p>
+                <p>
+                  Vaatii{' '}
+                  <a
+                    href='https://docs.google.com/forms/d/e/1FAIpQLSeFw7-EoftX6Z-qYOesI_jg7gYEmYrS3ep168KwgRMvbuLKlw/viewform?usp=header'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    ennakkoilmoittautumisen
+                  </a>
+                  .
+                </p>
               </div>
               <div className='info-item'>
                 <span className='icon'>👥</span>
@@ -356,7 +366,7 @@ function App() {
               <span className='icon'>🚲</span>
               <p>
                 <strong>Kaupunkipyörät:</strong> Tapahtuman aikana on käynnissä
-                Pyöräyviikko-tarjous, jolloin kaupunkipyöriä voi käyttää 24
+                Pyöräilyviikon-tarjous, jolloin kaupunkipyöriä voi käyttää 24
                 tunnin ajan vain 2 €:lla!{' '}
                 <a
                   href='https://www.nysse.fi/kaupunkipyorat.html'
@@ -384,7 +394,15 @@ function App() {
             <div className='info-item'>
               <span className='icon'>📝</span>
               <p>
-                Poikkeuksena saunalautta, joka vaatii ennakkoilmoittautumisen.
+                Poikkeuksena saunalautta, joka vaatii{' '}
+                <a
+                  href='https://docs.google.com/forms/d/e/1FAIpQLSeFw7-EoftX6Z-qYOesI_jg7gYEmYrS3ep168KwgRMvbuLKlw/viewform?usp=header'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  ennakkoilmoittautumisen
+                </a>
+                .
               </p>
             </div>
             <div className='info-item'>
