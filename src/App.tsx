@@ -275,6 +275,102 @@ function App() {
           </div>
         </section>
 
+        <section className='bring-section'>
+          <h2>Mitä ottaa mukaan?</h2>
+          <div className='bring-card'>
+            <div className='info-item'>
+              <span className='icon'>🧖</span>
+              <p>
+                Pyyhe ja uimapuku: molemmat saunat ovat sekasaunoja, mutta
+                pukuhuoneet ovat erikseen miehille ja naisille
+              </p>
+            </div>
+            <div className='info-item'>
+              <span className='icon'>💧</span>
+              <p>Vesipullo</p>
+            </div>
+            <div className='info-item'>
+              <span className='icon'>🍻</span>
+              <p>Haluamasi virvoitusjuomat</p>
+            </div>
+            <div className='info-item'>
+              <span className='icon'>🍖</span>
+              <p>
+                Grillattavaa (grilli käytössä sekä saunalautalla että Goforella)
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className='transport-section'>
+          <h2>Miten liikkua?</h2>
+          <div className='transport-card'>
+            <div className='info-item'>
+              <span className='icon'>🚌</span>
+              <p>
+                <strong>Julkinen liikenne:</strong> Tampereen seudun julkinen
+                liikenne toimii Nysse-nimellä. Nysse-sovellus on saatavilla{' '}
+                <a
+                  href='https://play.google.com/store/apps/details?id=nysse.fi.mobiili&hl=fi'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Androidille
+                </a>
+                ,{' '}
+                <a
+                  href='https://apps.apple.com/fi/app/nysse-mobiili/id1447099214?l=fi'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  iOS:lle
+                </a>{' '}
+                sekä{' '}
+                <a
+                  href='https://www.nysse.fi/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  verkkosovelluksena
+                </a>
+                .
+              </p>
+            </div>
+            <div className='info-item'>
+              <span className='icon'>💳</span>
+              <p>
+                <strong>Maksaminen:</strong> Liput voi ostaa sovelluksen kautta,
+                tai maksaa matkan lähimaksulla kortilla tai puhelimella suoraan
+                bussissa tai ratikassa.{' '}
+                <a
+                  href='https://www.nysse.fi/matkan-maksaminen/lahimaksu.html'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Lisätietoja lähimaksusta
+                </a>
+                .
+              </p>
+            </div>
+            <div className='info-item'>
+              <span className='icon'>🚲</span>
+              <p>
+                <strong>Kaupunkipyörät:</strong> Tapahtuman aikana on käynnissä
+                Pyöräyviikko-tarjous, jolloin kaupunkipyöriä voi käyttää 24
+                tunnin ajan vain 2 €:lla!{' '}
+                <a
+                  href='https://www.nysse.fi/kaupunkipyorat.html'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Lisätietoja kaupunkipyöristä
+                </a>
+                .
+              </p>
+            </div>
+          </div>
+        </section>
+
         <section className='info'>
           <div className='info-card'>
             <h3>Yleistä tietoa</h3>
