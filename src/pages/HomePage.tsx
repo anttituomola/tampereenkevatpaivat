@@ -4,7 +4,7 @@ function HomePage() {
   return (
     <div className='app-container'>
       <header>
-        <a href='/'>
+        <a href='/#/'>
           <img
             src='/tampereen-kevatpaivat-2025-transparent.png'
             alt='Tampereen Kevätpäivät™ logo'
@@ -19,7 +19,7 @@ function HomePage() {
       <nav className='site-nav'>
         <ul className='nav-links'>
           <li>
-            <a href='/2025'>2025</a>
+            <a href='/#/2025'>2025</a>
           </li>
         </ul>
       </nav>

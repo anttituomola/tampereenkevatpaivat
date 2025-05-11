@@ -54,7 +54,7 @@ function EventPage2025() {
   return (
     <div className='app-container' tabIndex={0} onKeyDown={handleKeyDown}>
       <header>
-        <a href='/'>
+        <a href='/#/'>
           <img
             src='/tampereen-kevatpaivat-2025-transparent.png'
             alt='Tampereen Kevätpäivät™ 2025 logo'
@@ -70,7 +70,7 @@ function EventPage2025() {
       <nav className='site-nav'>
         <ul className='nav-links'>
           <li>
-            <a href='/'>Etusivu</a>
+            <a href='/#/'>Etusivu</a>
           </li>
         </ul>
       </nav>
