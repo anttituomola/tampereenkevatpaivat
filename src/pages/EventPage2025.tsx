@@ -3,6 +3,9 @@ import { useState } from 'react';
 
 function EventPage2025() {
   const galleryImages = [
+    'vesijetti-ja-vedenkorkeudenmittauspiste.jfif',
+    'antti-ja-lauri-saunalautalla.jfif',
+    'erno-uimassa.jfif',
     'laukontori.jfif',
     'minigolf-palkintokoroke.jfif',
     'joonas-ja-antti-minigolfissa.jfif',
