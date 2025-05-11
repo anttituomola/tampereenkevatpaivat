@@ -6,7 +6,7 @@ function HomePage() {
       <header>
         <a href='/#/'>
           <img
-            src='/tampereen-kevatpaivat-2025-transparent.png'
+            src='/tampereen-kevatpaivat-2026.png'
             alt='Tampereen Kevätpäivät™ logo'
             className='header-logo'
           />
@@ -39,7 +39,7 @@ function HomePage() {
       <footer>
         <div className='footer-content'>
           <img
-            src='/tampereen-kevatpaivat-2025-icon.png'
+            src='/tampereen-kevatpaivat-2026.png'
             alt='Tampereen Kevätpäivät™ icon'
             className='footer-icon'
           />

@@ -56,8 +56,8 @@ function EventPage2025() {
       <header>
         <a href='/#/'>
           <img
-            src='/tampereen-kevatpaivat-2025-transparent.png'
-            alt='Tampereen Kevätpäivät™ 2025 logo'
+            src='/tampereen-kevatpaivat-2026.png'
+            alt='Tampereen Kevätpäivät™ logo'
             className='header-logo'
           />
         </a>
@@ -540,7 +540,7 @@ function EventPage2025() {
       <footer>
         <div className='footer-content'>
           <img
-            src='/tampereen-kevatpaivat-2025-icon.png'
+            src='/tampereen-kevatpaivat-2026.png'
             alt='Tampereen Kevätpäivät™ icon'
             className='footer-icon'
           />
