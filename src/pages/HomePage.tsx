@@ -32,6 +32,25 @@ function LocationLine({ children }: { children: ReactNode }) {
   );
 }
 
+function RegistrationNote() {
+  return (
+    <InfoLine marker='📝'>
+      Vaatii{' '}
+      {registrationForm ? (
+        <a
+          href={registrationForm}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          ilmoittautumisen
+        </a>
+      ) : (
+        'ilmoittautumisen'
+      )}
+      .
+    </InfoLine>
+  );
+}
 
 function HomePage() {
   return (
@@ -112,13 +131,13 @@ function HomePage() {
                       paluu meloen. Lisäkajakkeja voi vuokrata tarpeen mukaan.
                     </InfoLine>
                     <InfoLine marker='€'>
-                      Arvioitu hinta n. 35 € / henkilö (vahvistuu myöhemmin).
+                      31,50 € / kajakki.
                     </InfoLine>
                     <InfoLine marker='→'>
                       Noin 1,5 km keskustasta; lähin bussipysäkki on 15B-linjalla.
                       Pyydä tarvittaessa parkkilupa paikan päältä.
                     </InfoLine>
-                    <InfoLine marker='📝'>Vaatii ilmoittautumisen.</InfoLine>
+                    <RegistrationNote />
                   </div>
                 </div>
               </div>
@@ -190,7 +209,7 @@ function HomePage() {
               <InfoLine marker='🍽'>
                 Saunomista ja kevyttä syötävää. Tarkemmat tiedot myöhemmin.
               </InfoLine>
-              <InfoLine marker='📝'>Vaatii ilmoittautumisen.</InfoLine>
+              <RegistrationNote />
             </div>
           </div>
 
@@ -285,7 +304,7 @@ function HomePage() {
                 Vaatii uimataidon. Pukukopit ja säilytyslokerot ovat paikan
                 päällä.
               </InfoLine>
-              <InfoLine marker='📝'>Vaatii ilmoittautumisen.</InfoLine>
+              <RegistrationNote />
             </div>
           </div>
 
