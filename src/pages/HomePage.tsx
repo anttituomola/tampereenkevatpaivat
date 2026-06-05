@@ -1,6 +1,10 @@
 import { type ReactNode } from 'react';
 import '../App.css';
-import { registrationDeadline, registrationForm } from '../event2026Config';
+import {
+  registrationDeadline,
+  registrationForm,
+  whatsappGroupUrl,
+} from '../event2026Config';
 
 function InfoLine({
   marker,
@@ -401,6 +405,35 @@ function HomePage() {
             <InfoLine marker='💧'>Vesipullo</InfoLine>
             <InfoLine marker='◇'>Omat juomat maun mukaan</InfoLine>
             <InfoLine marker='◇'>Grillattavaa Goforen illan grilliin</InfoLine>
+          </div>
+        </section>
+
+        <section className='bring-section whatsapp-section'>
+          <h2>WhatsApp-ryhmä</h2>
+          <div className='bring-card whatsapp-card'>
+            <p className='whatsapp-intro'>
+              Liity Tampereen Kevätpäivät™ -WhatsApp-ryhmään ja pysy ajan tasalla
+              tapahtumasta.
+            </p>
+            <div className='registration-button-container'>
+              <a
+                href={whatsappGroupUrl}
+                target='_blank'
+                rel='noopener noreferrer'
+                className='registration-button'
+              >
+                Liity WhatsApp-ryhmään
+              </a>
+            </div>
+            <div className='whatsapp-qr'>
+              <img
+                src='/whatsapp-qr-code.png'
+                alt='WhatsApp-ryhmän QR-koodi'
+                width={280}
+                height={280}
+              />
+              <p>Skannaa QR-koodi WhatsApp-kameralla liittyäksesi ryhmään.</p>
+            </div>
           </div>
         </section>
       </main>

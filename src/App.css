@@ -817,6 +817,42 @@ a:hover {
   background-color: var(--accent-color);
 }
 
+.whatsapp-section .whatsapp-card {
+  max-width: 320px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.whatsapp-intro {
+  margin: 0 0 var(--spacing-md);
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.whatsapp-section .registration-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.whatsapp-qr {
+  margin-top: var(--spacing-lg);
+}
+
+.whatsapp-qr img {
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  margin-inline: auto;
+  border-radius: var(--card-border-radius);
+}
+
+.whatsapp-qr p {
+  margin-top: var(--spacing-sm);
+  color: var(--text-color);
+  font-size: 0.95rem;
+}
+
 /* Transport section */
 .transport-section {
   margin-bottom: var(--spacing-xl);
