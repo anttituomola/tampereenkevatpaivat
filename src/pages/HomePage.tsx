@@ -79,7 +79,7 @@ function HomePage() {
 
       <main>
         <section className='intro save-the-date'>
-          <h3 className='save-label'>Save the date</h3>
+          <h3 className='save-label'>Ilmoittautuminen auki!</h3>
           <h2 className='next-date'>18.7.2026</h2>
           <p>
             Tampereen Kevätpäivät™ on tekosyy tavata ystäviä ja uusia ystäviä,
