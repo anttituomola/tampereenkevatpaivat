@@ -86,7 +86,7 @@ function HomePage() {
           <h3 className='save-label'>Ilmoittautuminen auki!</h3>
           <h2 className='next-date'>18.7.2026</h2>
           <p>
-            Tampereen Kevätpäivät™ on tekosyy tavata ystäviä ja uusia ystäviä,
+            Tampereen Kevätpäivät™ on tekosyy tavata vanhoja ja uusia ystäviä,
             sekä nauttia maailman saunapääkaupungin keväästä hyvässä seurassa.
             Tule, ja tuo ystäväsikin.
           </p>

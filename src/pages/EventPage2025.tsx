@@ -122,7 +122,7 @@ function EventPage2025() {
         <section className='intro'>
           <h2>Tervetuloa!</h2>
           <p>
-            Tampereen Kevätpäivät™ on tekosyy tavata ystäviä ja uusia ystäviä,
+            Tampereen Kevätpäivät™ on tekosyy tavata vanhoja ja uusia ystäviä,
             sekä nauttia maailman saunapääkaupungin keväästä hyvässä seurassa.
             Tule, ja tuo ystäväsikin.
           </p>
