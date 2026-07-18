@@ -1,10 +1,6 @@
 import { type ReactNode } from 'react';
 import '../App.css';
-import {
-  registrationDeadline,
-  registrationForm,
-  whatsappGroupUrl,
-} from '../event2026Config';
+import { whatsappGroupUrl } from '../event2026Config';
 
 function InfoLine({
   marker,
@@ -36,26 +32,6 @@ function LocationLine({ children }: { children: ReactNode }) {
   );
 }
 
-function RegistrationNote() {
-  return (
-    <InfoLine marker='📝'>
-      Vaatii{' '}
-      {registrationForm ? (
-        <a
-          href={registrationForm}
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          ilmoittautumisen
-        </a>
-      ) : (
-        'ilmoittautumisen'
-      )}
-      .
-    </InfoLine>
-  );
-}
-
 function HomePage() {
   return (
     <div className='app-container'>
@@ -83,7 +59,7 @@ function HomePage() {
 
       <main>
         <section className='intro save-the-date'>
-          <h3 className='save-label'>Ilmoittautuminen auki!</h3>
+          <h3 className='save-label'>Tänään!</h3>
           <h2 className='next-date'>18.7.2026</h2>
           <p>
             Tampereen Kevätpäivät™ on tekosyy tavata vanhoja ja uusia ystäviä,
@@ -141,7 +117,6 @@ function HomePage() {
                       Noin 1,5 km keskustasta; lähin bussipysäkki on 15B-linjalla.
                       Pyydä tarvittaessa parkkilupa paikan päältä.
                     </InfoLine>
-                    <RegistrationNote />
                   </div>
                 </div>
               </div>
@@ -213,7 +188,6 @@ function HomePage() {
               <InfoLine marker='🍽'>
                 Saunomista ja kevyttä syötävää. Tarkemmat tiedot myöhemmin.
               </InfoLine>
-              <RegistrationNote />
             </div>
           </div>
 
@@ -250,14 +224,14 @@ function HomePage() {
 
           <div className='directions-card'>
             <div className='directions-content'>
-              <p>Siirtymä T3Parkiin (n. klo 15:30–16)</p>
+              <p>Siirtymä Crazylle (n. klo 15:30–15:45)</p>
               <p className='directions-note'>
                 Laukontorilta kävely on lyhyt ja kätevin. Soutukeskuksesta kävely,
                 pyörä tai muu kevyt liikkuminen.
               </p>
               <div className='directions-link'>
                 <a
-                  href='https://www.google.com/maps/dir/?api=1&origin=Laukontori+Tampere&destination=Eteläpuisto+3+33200+Tampere&travelmode=walking'
+                  href='https://www.google.com/maps/dir/?api=1&origin=Laukontori+Tampere&destination=Puutarhakatu+21+Tampere&travelmode=walking'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -266,7 +240,7 @@ function HomePage() {
               </div>
               <div className='directions-link'>
                 <a
-                  href='https://www.google.com/maps/dir/?api=1&origin=Hatanpäänkatu+6+Tampere&destination=Eteläpuisto+3+33200+Tampere&travelmode=walking'
+                  href='https://www.google.com/maps/dir/?api=1&origin=Hatanpäänkatu+6+Tampere&destination=Puutarhakatu+21+Tampere&travelmode=walking'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
@@ -277,82 +251,65 @@ function HomePage() {
           </div>
 
           <div className='event-card'>
-            <div className='event-time'>16:00</div>
+            <div className='event-time'>15:45</div>
             <div className='event-content'>
               <h3>
                 <a
-                  href='https://t3park.fi/'
+                  href='https://www.viihdekeskuscrazy.fi/curling/'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  T3Park
+                  Lattiacurling
                 </a>{' '}
-                — kelluva vesipuisto
+                — Viihdekeskus Crazy
               </h3>
-              <InfoLine marker='🕒'>Klo 16:00–17:00</InfoLine>
+              <InfoLine marker='⛈'>
+                Korvaa ukkosen vuoksi perutun T3Park-vesipuiston.
+              </InfoLine>
+              <InfoLine marker='🕒'>Klo 15:45–17:00</InfoLine>
               <LocationLine>
                 <a
-                  href='https://www.google.com/maps/search/?api=1&query=Eteläpuisto+3+33200+Tampere'
+                  href='https://www.google.com/maps/search/?api=1&query=Puutarhakatu+21+33210+Tampere'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  T3Park Eteläpuisto, Eteläpuisto 3, 33200 Tampere
+                  Viihdekeskus Crazy, Puutarhakatu 21, 33210 Tampere
                 </a>
               </LocationLine>
-              <InfoLine marker='€'>14 € / henkilö</InfoLine>
-              <InfoLine marker='🏊'>
-                Tunnin sessio kelluvalla esteradalla. Varaan liput valmiiksi,
-                joten muista ilmoittautua.
+              <InfoLine marker='€'>
+                Lauantaihinnoittelu: 39 € / tunti / rata (1–6 henkilöä), 78 € /
+                tunti (7–12 henkilöä).
               </InfoLine>
-              <InfoLine marker='◇'>
-                Vaatii uimataidon. Pukukopit ja säilytyslokerot ovat paikan
-                päällä.
-              </InfoLine>
-              <RegistrationNote />
-            </div>
-          </div>
-
-          <div className='event-card'>
-            <div className='event-time'>17:30</div>
-            <div className='event-content'>
-              <h3>Pihapeliturnaus</h3>
-              <InfoLine marker='🕒'>Klo 17:30–19:00</InfoLine>
-              <LocationLine>
-                <a
-                  href='https://www.google.com/maps/search/?api=1&query=Eteläpuisto+Tampere'
-                  target='_blank'
-                  rel='noopener noreferrer'
-                >
-                  Eteläpuisto, Tampere
-                </a>
-              </LocationLine>
-              <InfoLine marker='◇'>
-                Petankia, mölkkyä ja muuta pihapeliä rennolla turnausotteella.
-                Kaikki välineet löytyvät minulta, joten omia ei tarvitse tuoda.
+              <InfoLine marker='🥌'>
+                Kaksi rataa samassa huoneessa, yhdelle radalle mahtuu 6
+                henkilöä. Lattiacurlingiin ei tarvita erikoisvaatteita tai
+                -kenkiä — säännöt löytyvät radan vierestä.
               </InfoLine>
             </div>
           </div>
 
           <div className='directions-card'>
             <div className='directions-content'>
-              <p>Siirtymä: Eteläpuistosta Goforelle (klo 19:30)</p>
+              <p>Siirtymä: Crazyltä Goforelle (klo 17:00 jälkeen)</p>
               <div className='directions-link'>
                 <a
-                  href='https://www.google.com/maps/dir/?api=1&origin=Eteläpuisto+3+Tampere&destination=Peltokatu+34+Tampere&travelmode=transit'
+                  href='https://www.google.com/maps/dir/?api=1&origin=Puutarhakatu+21+Tampere&destination=Peltokatu+34+Tampere&travelmode=walking'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  Reittiohjeet Goforelle
+                  Kävelyreitti Goforelle
                 </a>
               </div>
             </div>
           </div>
 
           <div className='event-card'>
-            <div className='event-time'>19:30</div>
+            <div className='event-time'>17:15</div>
             <div className='event-content'>
-              <h3>Sauna ja grilli, Gofore</h3>
-              <InfoLine marker='🕒'>Klo 19:30 alkaen</InfoLine>
+              <h3>Ruokaa ja sauna Goforella</h3>
+              <InfoLine marker='🕒'>
+                Klo 17:15 alkaen (suoraan curlingin jälkeen)
+              </InfoLine>
               <LocationLine>
                 <a
                   href='https://www.google.com/maps/search/?api=1&query=Peltokatu+34+33100+Tampere'
@@ -364,34 +321,10 @@ function HomePage() {
               </LocationLine>
               <InfoLine marker='◇'>A-torni, 4. kerros (rautatieaseman vieressä)</InfoLine>
               <InfoLine marker='◇'>
-                Sauna lämpiää ja grilli on käytössä — tuo omat grillattavat.
+                Teemme yhdessä ruokaa. Sauna lämpiää ja grilli on myös
+                käytössä — tuo omat grillattavat.
               </InfoLine>
             </div>
-          </div>
-        </section>
-
-        <section className='bring-section'>
-          <h2>Ilmoittautuminen</h2>
-          <div className='bring-card'>
-            <InfoLine marker='📝'>
-              Yksi lomake kattaa melonnan, saunan ja T3Parkin. Ilmoittaudu
-              viimeistään {registrationDeadline}, niin osaan varata paikat ja
-              T3Parkin liput valmiiksi.
-            </InfoLine>
-            {registrationForm ? (
-              <div className='registration-button-container'>
-                <a
-                  href={registrationForm}
-                  target='_blank'
-                  rel='noopener noreferrer'
-                  className='registration-button'
-                >
-                  Ilmoittaudu
-                </a>
-              </div>
-            ) : (
-              <InfoLine marker='◇'>Lisään linkin lomakkeeseen pian.</InfoLine>
-            )}
           </div>
         </section>
 
@@ -399,10 +332,11 @@ function HomePage() {
           <h2>Mitä ottaa mukaan?</h2>
           <div className='bring-card'>
             <InfoLine marker='🧖'>
-              Pyyhe ja uimapuku saunoihin ja T3Parkiin
+              Pyyhe ja uimapuku saunoihin
             </InfoLine>
             <InfoLine marker='👕'>Vaihtovaatteet melontaan ja ulkoiluun</InfoLine>
             <InfoLine marker='💧'>Vesipullo</InfoLine>
+            <InfoLine marker='☔'>Sateenvarjo</InfoLine>
             <InfoLine marker='◇'>Omat juomat maun mukaan</InfoLine>
             <InfoLine marker='◇'>Grillattavaa Goforen illan grilliin</InfoLine>
           </div>
