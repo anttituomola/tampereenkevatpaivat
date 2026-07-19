@@ -75,6 +75,9 @@ function EventPage2025() {
           <li>
             <a href='/#/'>Etusivu</a>
           </li>
+          <li>
+            <a href='/#/2026'>2026</a>
+          </li>
         </ul>
       </nav>
 

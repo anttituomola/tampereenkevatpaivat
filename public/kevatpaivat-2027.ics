@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tampereen Kevätpäivät™//tampereenkevatpaivat.fi//FI
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:tampereen-kevatpaivat-2027@tampereenkevatpaivat.fi
+DTSTAMP:20260719T100000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:Tampereen Kevätpäivät™ 2027
+DESCRIPTION:Tampereen Kevätpäivät™ on tekosyy tavata vanhoja ja uusia ystäviä sekä nauttia maailman saunapääkaupungin keväästä hyvässä seurassa. Tarkempi ohjelma: https://tampereenkevatpaivat.fi/
+LOCATION:Tampere
+URL:https://tampereenkevatpaivat.fi/
+END:VEVENT
+END:VCALENDAR
